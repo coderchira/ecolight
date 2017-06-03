@@ -1,0 +1,35 @@
+﻿<div login-user>
+  <section ng-show = "busy == true">
+    <div class="progress progress-striped active">
+      <div class="progress-bar progress-bar-info" style="width: 100%"></div>
+    </div>
+  </section>
+  <section class="col-md-10 col-md-offset-2" ng-hide = "busy == true">
+    <div class="form-group">
+      <div class="input-group">
+        <input type="text" class="form-control" name="name" value="" ng-model="user.id" required placeholder="username"/>
+        <span class="input-group-addon">@infosys.com</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="input-group">
+        <input type="password" class="form-control" name="name" value="" ng-model="user.password" required placeholder="password"/>
+        <span class="input-group-btn">
+          <button class="btn btn-info" name="name" value="" ng-click="loginUser()">
+            <span class="glyphicon glyphicon-send"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+    <div class="alert alert-dismissible alert-warning" ng-show = "warning.disp == true">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <h4>Warning!</h4>
+      <p>
+        {{warning.message}}
+      </p>
+    </div>
+  </section>
+﻿
+
+
+﻿</div>

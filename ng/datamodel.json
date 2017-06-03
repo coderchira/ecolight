@@ -1,0 +1,55 @@
+﻿{
+"data" :{
+  "users":[
+    {"id":"ruchira","pin":"106","role":5},
+    {"id":"niru","pin":"105","role":4},
+    {"id":"churi","pin":"106","role":3},
+    {"id":"tibby","pin":"106","role":2},
+    {"id":"neelu","pin":"106","role":3},
+    {"id":"peelu","pin":"106","role":5}
+  ],
+  "trainings":[
+    {"courseid":"973C53C9-6CF2-4E63-B1F8-1271E5518E66","sdate":1482988907949,"edate":1482988928623,"cost":0.00, "title":"dsjgfgsdf","attendees":20,"mode":"Virtual","location":"Multiple","anchor":"Niranjan@infosys.com","feedback":4.2,"effort":8},
+    {"courseid":"4A56B4CF-D40C-45EE-9AAF-89E82389DC89","sdate":1482988907949,"edate":1482988928623,"cost":0.00, "title":"dsjgfgsdf","attendees":20,"mode":"Virtual","location":"Multiple","anchor":"Niranjan@infosys.com","feedback":4.2,"effort":8},
+    {"courseid":"03967BF8-30B1-42AA-8D03-423DDF20E9F9","sdate":1482988907949,"edate":1482988928623,"cost":0.00, "title":"dsjgfgsdf","attendees":20,"mode":"Virtual","location":"Multiple","anchor":"Niranjan@infosys.com","feedback":4.2,"effort":8},
+    {"courseid":"AE034299-6F4D-4BE2-ADB1-BC35B627D2CA","sdate":1482988907949,"edate":1482988928623,"cost":0.00, "title":"dsjgfgsdf","attendees":20,"mode":"Virtual","location":"Multiple","anchor":"Niranjan@infosys.com","feedback":4.2,"effort":8},
+    {"courseid":"973C53C9-6CF2-4E63-B1F8-1271E5518E66","sdate":1482988907949,"edate":1482988928623,"cost":0.00, "title":"dsjgfgsdf","attendees":20,"mode":"Virtual","location":"Multiple","anchor":"Niranjan@infosys.com","feedback":4.2,"effort":8}
+  ],
+  "foundation":[
+    {"courseid":"973C53C9-6CF2-4E63-B1F8-1271E5518E66",
+      "stream":"ENGMECHPD","hp":30,"lp":20,"ap":10,
+      "duplacements":[
+      {"du":"ENGKBE","intake":30},
+      {"du":"ENGPLM","intake":10},
+      {"du":"ENGSP","intake":20}]
+      }
+    ],
+  "ngdc":[
+    {"courseid":"4A56B4CF-D40C-45EE-9AAF-89E82389DC89"},
+    {"courseid":"03967BF8-30B1-42AA-8D03-423DDF20E9F9"}
+  ],
+  "workshop":[
+    {"courseid":"4A56B4CF-D40C-45EE-9AAF-89E82389DC89"},
+    {"courseid":"03967BF8-30B1-42AA-8D03-423DDF20E9F9"}
+  ],
+  "external":[
+    {"courseid":"AE034299-6F4D-4BE2-ADB1-BC35B627D2CA","vendorid":23234,
+      "du":[
+        {"name":"ENGPLM","no":10},
+        {"name":"ENGKBE","no":5}]
+        }
+      ],
+  "ce":[
+    {"courseid":"973C53C9-6CF2-4E63-B1F8-1271E5518E66"}
+  ],
+  "internship":[
+    {"courseid":"AE034299-6F4D-4BE2-ADB1-BC35B627D2CA",
+      "stream":"ENGMECHPD","hp":30,"lp":20,"ap":10,
+      "duplacements":[
+        {"du":"ENGKBE","intake":30},
+        {"du":"ENGPLM","intake":10},
+        {"du":"ENGSP","intake":20}]
+        }
+      ]
+}
+}
