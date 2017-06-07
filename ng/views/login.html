@@ -1,10 +1,10 @@
 ﻿<div login-user>
   <section ng-show = "busy == true">
-    <div class="progress progress-striped active">
+    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 progress progress-striped active">
       <div class="progress-bar progress-bar-info" style="width: 100%"></div>
     </div>
   </section>
-  <section class="col-md-10 col-md-offset-2" ng-hide = "busy == true">
+  <section class="well col-md-6 col-lg-6 col-sm-12 col-xs-12" ng-hide = "busy == true">
     <div class="form-group">
       <div class="input-group">
         <input type="text" class="form-control" name="name" value="" ng-model="user.id" required placeholder="username"/>

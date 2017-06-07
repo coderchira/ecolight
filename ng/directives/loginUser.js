@@ -20,7 +20,7 @@
         }
         var goOnToNext = function(){
           console.log("inside goOnToNext function");
-          $location.path("/report");
+          $location.path("/about");
         }
         var showWarning = function(msg){
           $scope.warning.disp = true;

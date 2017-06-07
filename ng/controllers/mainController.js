@@ -4,8 +4,11 @@
             if (program == "report") {
                 $location.path("/report");
             }
-            else if (program == "settings") {
-                $location.path("/settings");
+            else if (program == "about") {
+                $location.path("/about");
+            }
+            else if (program == "architecture") {
+                $location.path("/arch");
             }
         }
 

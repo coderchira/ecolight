@@ -11,13 +11,17 @@
                 console.log("inside main controller, el is report");
                 $location.url("/report");
             }
-            else if (el == "settings") {
-                console.log("inside main controller, el is settings");
-                $location.url("/settings");
+            else if (el == "about") {
+                console.log("inside main controller, el is about");
+                $location.url("/about");
+            }
+            else if (el == "architecture") {
+                console.log("inside main controller, el is architecture");
+                $location.url("/arch");
             }
             else {
-                console.log("inside main controller, el is unrecognized, moving to report");
-                $location.url("/report");
+                console.log("inside main controller, el is unrecognized, moving to about");
+                $location.url("/about");
             }
         }
         console.log("Inside leftNav directive")
